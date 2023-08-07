@@ -1,0 +1,192 @@
+.wraper {
+  max-width: 1400px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.header-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.header-items div span {
+  font-weight: bold;
+}
+
+.header {
+  background-color: orange;
+}
+.content {
+  flex: 1 1 auto;
+}
+.main {
+  flex: 1 1 auto;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside-sidebar1 {
+  background-color: rgb(155, 117, 152);
+  width: 210px;
+  min-height: 150vh;
+  text-align: center;
+  font-weight: bold;
+}
+
+.aside-sidebar2 {
+  background-color: rgb(103, 151, 196);
+  width: 210px;
+  min-height: 150vh;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+.base-content {
+  text-align: center;
+  overflow: hidden;
+}
+.base-content> p {
+  font-weight: bold;
+  
+}
+
+.footer {
+  background-color: rgb(73, 187, 73);
+}
+
+.test-footer-row {
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text {
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0, 5px;
+}
+
+.colmns {
+  padding: 0 190px;
+  
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.colmns-row {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex: 0 1 33, 333%; */
+}
+.vertical-card {
+  border-radius: 15px;
+  border: solid 2px rgb(145, 122, 143);
+  width: 200px;
+  height: 250px;
+  background-color: white;
+  padding: 5px;
+  margin: 7px;
+  display: flex;
+  flex-direction: column;
+  transition: 2s;
+}
+.vertical-card:hover {
+  transition: 1s;
+  transform: translateY(20px);
+}
+.img-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.blok-img {
+  background-color: rgb(142, 118, 145);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+.title-card {
+  font-weight: bold;
+}
+img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.text-card {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  flex: 1 1 auto;
+}
+.card-btn {
+  display: block;
+  margin: 0px 50px;
+  height: 20px;
+  background-color: blueviolet;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: solid 2px black;
+  overflow: hidden;
+}
+
+.item {
+  min-height: 100px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+.item:nth-child(1) {
+  background-color: orangered;
+  order: 1;
+  flex-basis: 50%;
+}
+
+.item:nth-child(5) {
+  background-color: rgb(255, 153, 0);
+  order: 2;
+  flex-basis: 50%;
+}
+
+.item:nth-child(3) {
+  background-color: blueviolet;
+  order: 3;
+  flex-basis: 33.3%;
+}
+
+.item:nth-child(2) {
+  background-color: rgb(92, 97, 143);
+  order: 4;
+  flex-basis: 33.3%;
+}
+
+.item:nth-child(4) {
+  background-color: rgb(7, 73, 7);
+  order:5;
+  flex-basis: 33.3%;
+}
+
+
+
+
+

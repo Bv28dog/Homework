@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Контактна інформація</legend>
+        <label class="labell-1" for="name">
+          <span>Імя*</span> <input type="text" id="name" />
+        </label>
+        <br />
+        <br />
+        <label class="labell-2" for="Email">
+          <span>Email</span> <input type="text" id="Email" />
+        </label>
+        <br />
+        <br />
+        <label class="labell-3" for="number">
+          <span>Телефон</span> <input type="text" id="number" />
+        </label>
+        <br />
+        <br />
+        <label for="countries"
+          >Яка країна тобі довподоби найбільше обери з списку країн</label
+        >
+        <select id="countries">
+          <option value="">Україна</option>
+          <option value="">Італія</option>
+          <option value="">Польща</option>
+          <option value="">Чехія</option>
+        </select>
+        <textarea
+          placeholder="Введіть текст!"
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <br />
+        <label class="container_check" for="check">
+          <input class="input_check" type="checkbox" id="check" />
+          <span class="span_check"></span>
+          Вивчаю CSS
+        </label>
+        <label class="container_check" for="checkk">
+          <input
+            class="input_check"
+            type="checkbox"
+            name=""
+            id="checkk"
+            checked
+          />
+          <span class="span_check"></span>
+          Вивчаю HTML
+        </label>
+        <label class="container_check" for="checkkk">
+          <input class="input_check" type="checkbox" id="checkkk" />
+          <span class="span_check"></span>
+          Вивчу JavaScript
+        </label>
+      </fieldset>
+      <button class="btn" type="submit">Надіслати</button>
+      <br />
+    </form>
+  </body>
+</html>

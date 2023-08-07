@@ -1,0 +1,118 @@
+.blok-main {
+  color: white;
+  background-color: #0d5825;
+  font-size: 25px;
+  width: 700px;
+  height: 600px;
+}
+
+blockquote {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.img-item {
+  text-align: center;
+  margin-top: 150px;
+}
+
+img {
+  width: 150px;
+}
+
+.img-1 {
+  position: relative;
+  transform: translateX(25px);
+  transform: rotate(-15deg);
+}
+
+.img-2 {
+  position: relative;
+  left: -102px;
+  transform: rotate(-3deg);
+}
+.img-3 {
+  position: relative;
+  left: -209px;
+  transform: rotate(15deg);
+  bottom: -12px;
+}
+
+.img-1:hover {
+  transform: translateY(-20px);
+}
+.img-2:hover {
+  transform: translateY(-20px);
+}
+.img-3:hover {
+  transform: translateY(-20px);
+}
+
+.blok-item {
+}
+
+.kvadrat-1 {
+  background-color: rgb(224, 129, 145);
+  height: 100px;
+  width: 100px;
+}
+.kvadrat-2 {
+  z-index: 2;
+  position: relative;
+  right: -40px;
+  bottom: 46px;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(125, 125, 189);
+}
+.kvadrat-3 {
+  z-index: 1;
+  position: relative;
+  bottom: 90px;
+  right: -90px;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(46, 163, 85);
+}
+
+.blok-animations {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.animation-item {
+  width: 50px;
+  height: 50px;
+  background-color: #230591;
+  position: absolute;
+  animation: moveSquare 4s infinite;
+}
+@keyframes moveSquare {
+  0%,
+  100% {
+    top: 0;
+    left: 0;
+    background-color: #ff5722;
+  }
+  25% {
+    top: 0;
+    left: 250px;
+    background-color: #2196f3;
+  }
+  50% {
+    top: 250px;
+    left: 250px;
+    background-color: #4caf50;
+  }
+  75% {
+    top: 250px;
+    left: 0;
+    background-color: #ffc107;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}

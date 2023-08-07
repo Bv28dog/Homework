@@ -1,0 +1,43 @@
+div {
+  color: green;
+}
+
+a[href='http://www.youtube.com/']
+{
+  color: #ff8d00;
+}
+a[href='https://www.youtube.com/'],
+a[href='https://validator.w3.org/']
+{
+  color: #f00;
+}
+ul + p {
+  font-size: 26px;
+}
+
+a[title] {
+  border: 1px solid #067b09;
+}
+
+.text-box h3:first-of-type {
+    color: pink;
+}
+#greycol {
+    color: grey;
+}
+
+.text-box div p {
+    color: red;
+}
+
+h3[title='text'] {
+    color: blue;
+}
+
+.text-box p:nth-of-type(3) {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}

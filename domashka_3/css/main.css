@@ -1,0 +1,39 @@
+.blok {
+width: 350px;
+height: 220px;
+padding: 15px 10px 20px 10px;
+margin-bottom: 30px;
+border: 2px dashed red;
+background-color: green;
+}
+
+.blok-text {
+    float: right;
+    margin: 0 300px;
+}
+
+.imgfirst {
+    float: left;
+    margin: 10px;
+}
+
+.imgsecond {
+    float: right;
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+}
+
+.invisible-element {
+    visibility:hidden;
+    background-color: rebeccapurple;
+  }
+  .opassity {
+    background-color: yellow;
+    opacity: 0;
+  }
+
+  .none {
+    background-color: blue;
+    display: none;
+  }
